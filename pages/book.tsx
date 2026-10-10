@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { ArrowRight, Check, Clock3, Leaf, MapPin } from "lucide-react";
 import { Button } from "../components/Button";
 import { Input } from "../components/Input";
