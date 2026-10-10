@@ -35,12 +35,12 @@
     "lucide-react": "^0.477.0",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
-    "react-helmet": "^6.1.0",
     "react-router-dom": "6.30.6",
     "sonner": "^2.0.1",
     "superjson": "2.2.2",
     "tailwind-merge": "^3.3.0",
-    "zod": "^3.25.76"
+    "zod": "^3.25.76",
+    "react-helmet-async": "^2.0.5"
   },
   "devDependencies": {
     "@types/react": "^19.0.0",
