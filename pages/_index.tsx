@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { ArrowDown, ArrowRight, ArrowUpRight, Check, Clock3, Flower2, Leaf, MapPin, Sparkles, Waves } from "lucide-react";
 import { useScrollReveal } from "../helpers/useScrollReveal";
