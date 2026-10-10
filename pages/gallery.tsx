@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { PageHero, PageCta } from "../components/InteriorPage";
 import styles from "../components/InteriorPage.module.css";
 
