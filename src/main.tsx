@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HelmetProvider } from "react-helmet";
+import { HelmetProvider } from "react-helmet-async";
 import { GlobalContextProviders } from "../components/_globalContextProviders";
 import HomePage from "../pages/_index";
 import ServicesPage from "../pages/services";
