@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Overlay layers */
+  --z-overlay: 400;
+
+  --z-spotlight: 1000; /* Tutorial spotlights/guided help */
+
+  /* System layers */
+  --z-critical: 2000; /* Critical system notifications */
+
+  /* spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+}
+
+:root {
+  --background: #faf8f2;
+  --foreground: #21372d;
+  --surface: #f1f0e7;
+  --surface-foreground: #263c31;
+  --sidebar: #f4f1e8;
+  --sidebar-foreground: #263c31;
+  --card: #fffdf8;
+  --card-foreground: #21372d;
+  --popup: #fffdf8;
+  --popup-foreground: #21372d;
+  --primary: #315846;
+  --primary-foreground: #fffdf8;
+  --secondary: #e6eadf;
+  --secondary-foreground: #315846;
+  --accent: #c2a36b;
+  --accent-foreground: #23392e;
+  --muted: #eeece2;
+  --muted-foreground: #6c786d;
+  --success: #356b4b;
+  --success-foreground: #ffffff;
+  --error: #a8443d;
+  --error-foreground: #ffffff;
+  --warning: #8b6b26;
+  --warning-foreground: #ffffff;
+  --info: #426a77;
+  --info-foreground: #ffffff;
+  --info-hover: #365965;
+  --info-active: #294752;
+  --border: #dedfd2;
+  --font-family-base: 'DM Sans', sans-serif;
+  --font-family-display: 'Playfair Display', Georgia, serif;
+  --font-family-monospace: ui-monospace, SFMono-Regular, monospace;
+  --font-family-cursive: 'Playfair Display', Georgia, serif;
+  --shadow: 0 8px 30px rgba(39, 57, 43, 0.06);
+  --shadow-md: 0 16px 45px rgba(39, 57, 43, 0.10);
+  --shadow-lg: 0 24px 70px rgba(39, 57, 43, 0.14);
+  --shadow-focus: 0 0 0 3px rgba(49, 88, 70, 0.2);
+  --radius-sm: 0.4rem;
+  --radius: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-full: 9999px;
+  --animation-duration-fast: 150ms;
+  --animation-duration-normal: 260ms;
+  --animation-duration-slow: 650ms;
+  --chart-color-1: #315846;
+  --chart-color-2: #c2a36b;
+  --chart-color-3: #9aab91;
+  --chart-color-4: #8a7564;
+  --chart-color-5: #d8cdb8;
+}
+
+.dark {
+  --background: #17261e;
+  --foreground: #f5f1e7;
+  --surface: #203228;
+  --surface-foreground: #f5f1e7;
+  --sidebar: #1c2c23;
+  --sidebar-foreground: #f5f1e7;
+  --card: #22352a;
+  --card-foreground: #f5f1e7;
+  --popup: #22352a;
+  --popup-foreground: #f5f1e7;
+  --primary: #a5c0a8;
+  --primary-foreground: #17261e;
+  --secondary: #30483a;
+  --secondary-foreground: #eaf0e6;
+  --accent: #d2b47b;
+  --accent-foreground: #17261e;
+  --muted: #293b30;
+  --muted-foreground: #bdc7b9;
+  --success: #78b68a;
+  --success-foreground: #17261e;
+  --error: #e18b83;
+  --error-foreground: #17261e;
+  --warning: #d6b45f;
+  --warning-foreground: #17261e;
+  --info: #8dbac7;
+  --info-foreground: #17261e;
+  --info-hover: #a6cbd6;
+  --info-active: #c0dce4;
+  --border: #3a4e40;
+  --shadow: 0 8px 30px rgba(0, 0, 0, 0.16);
+  --shadow-md: 0 16px 45px rgba(0, 0, 0, 0.22);
+  --shadow-lg: 0 24px 70px rgba(0, 0, 0, 0.28);
+  --shadow-focus: 0 0 0 3px rgba(165, 192, 168, 0.24);
+  --chart-color-1: #a5c0a8;
+  --chart-color-2: #d2b47b;
+  --chart-color-3: #829d81;
+  --chart-color-4: #c2a58d;
+  --chart-color-5: #e5dac4;
+}
