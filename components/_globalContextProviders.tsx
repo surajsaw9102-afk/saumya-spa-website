@@ -3,7 +3,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ThemeModeProvider } from "../helpers/themeMode";
 import { TooltipProvider } from "./Tooltip";
 import { SonnerToaster } from "./SonnerToaster";
-import { ScrollToHashElement } from "./ScrollToHashElement";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -21,7 +20,6 @@ export const GlobalContextProviders = ({
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeModeProvider>
-        <ScrollToHashElement />
         <TooltipProvider>
           {children}
           <SonnerToaster />
