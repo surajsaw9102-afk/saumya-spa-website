@@ -72,6 +72,14 @@
   --chart-color-3: #9aab91;
   --chart-color-4: #8a7564;
   --chart-color-5: #d8cdb8;
+  /* Saumya Spa premium palette */
+  --saumya-forest: #173c2d;
+  --saumya-emerald: #245540;
+  --saumya-ivory: #fbf8f0;
+  --saumya-champagne: #c6a76b;
+  --saumya-sage: #e7ece2;
+  --saumya-ink: #23362b;
+  --content-width: 1240px;
 }
 
 .dark {
